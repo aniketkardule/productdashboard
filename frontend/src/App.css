@@ -1,0 +1,68 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+table thead {
+  background: lightblue;
+}
+table {
+  background: lighblue;
+}
+
+.flex{
+  display: flex;
+}
+.select{
+  height:40px;
+  background: lightblue;
+  border:1px solid grey;
+  border-radius: 4px;
+  padding-left: 20px;
+  margin: auto 20px;
+}
+.title{
+  margin:50px auto 50px auto;
+  
+}
+
+.statistic{
+  margin: 200px auto;
+  background: lightblue;
+  border-radius: 12px;
+  padding-bottom: 50px;
+}
+.inner-statistic {
+  margin-left: calc( 40% - 100px);
+ 
+  margin-bottom: 50px;
+  width:fit-content;
+  background: lightyellow;
+  border-radius: 12px;
+  width: fit-content;
+  height: 100px;
+}
+
+.stat-summery{
+  margin-right: 70px;
+  float: left;
+}
+.stat-container{
+  padding:7px;
+}
+.stat-value {
+  float:right;
+}
+
+
+.container{
+  width: 65%;
+  margin: auto
+}
+
+@media screen and (max-width: 600px) {
+  .container{
+    width:100%;   
+    margin: auto;
+  }
+}
